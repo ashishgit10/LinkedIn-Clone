@@ -188,7 +188,7 @@ const Search = styled.div`
     @media (max-width: 428px) {
       width: 290px;
     }
-    @media (max-width: 375px) {
+    @media (max-width: 377px) {
       width: 240px;
     }
   }
