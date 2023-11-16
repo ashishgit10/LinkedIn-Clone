@@ -55,7 +55,12 @@ const LeftSide = () => {
     </Container>
   );
 };
-const Container = styled.div``;
+const Container = styled.div`
+  width: 255px;
+  @media (max-width: 768px) {
+    width: auto;
+  }
+`;
 const Cards = styled.div`
   background-color: #fff;
   text-align: center;
@@ -150,11 +155,13 @@ const Group = styled.div`
     flex-direction: column;
     align-items: flex-start;
     font-weight: bold;
+    color: #2175c9ff;
   }
   .discover {
     color: grey;
     padding: 12px;
     font-weight: bold;
+    text-align: center;
   }
 `;
 export default LeftSide;

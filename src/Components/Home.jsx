@@ -16,14 +16,15 @@ const Home = (props) => {
 };
 
 const Container = styled.div`
-  padding-top: 60px;
-  max-width: 1128px;
+  padding-top: 85px;
+  max-width: 1228px;
   margin-inline: auto;
   @media (max-width: 768px) {
     padding-top: 50px;
   }
 `;
 const Content = styled.div`
+justify-content: space-around;
   display: flex;
   @media (max-width: 768px) {
     flex-direction: column;

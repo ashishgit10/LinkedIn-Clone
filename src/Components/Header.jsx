@@ -258,7 +258,7 @@ const Navcont = styled.li`
     justify-content: center;
     align-items: center;
     background: transparent;
-    min-height: 30px;
+    min-height: 60px;
     margin-inline: 10px;
     line-height: 1.5;
     span {
